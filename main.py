@@ -17,5 +17,13 @@ if len(spy_name) > 0 and len(spy_salutation) > 0 :
     print "User Identified."
     print "welcome\t" + spy_name
     print "Alright\t" + spy_name + "\nBefore proceeding, Lets talk little more about you."
+
+
+    spy_age = 0
+    spy_age = int(raw_input("Enter Your Age:"))
+    print type(spy_age)
+    print spy_age
+
 else:
-    print 'Authentication failed'
+    print "Authentication failed" + "Invalid Input"
+
