@@ -20,8 +20,10 @@ if len(spy_name) > 0 and len(spy_salutation) > 0 :
 
 
     spy_age = 0
+    spy_rating = 0.0
+    spy_is_online = False
     spy_age = int(raw_input("Enter Your Age:"))
-    print type(spy_age)
+
     print spy_age
 
 else:
