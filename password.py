@@ -1,5 +1,8 @@
 import random
-opt = ['1','2','3','4','5','6','7','8','9','0']
+import string
+
+chars = string.letters + string.digits
+opt = ['1','2','3','4','5','6','7','8','9','0','A','B','C','D','W','X','Y','Z','a','e','i','o','u']
 choice = raw_input("enter numbers-")
 sel = list(choice) + opt
 z=[]
